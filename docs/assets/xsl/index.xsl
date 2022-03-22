@@ -91,7 +91,7 @@
                   			</a>
                   		</div>
                   		<div class="copyright_text">
-                         2022 Wout Dillen.
+                  		    2022 Bert Kunzmann and Mohammad Habibur Rahman.
                       </div>
                     </div>
                 </div>
