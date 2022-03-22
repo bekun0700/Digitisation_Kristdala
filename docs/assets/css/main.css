@@ -14,8 +14,8 @@ h1, h2, h3, nav, footer {
 
 nav {
     margin-bottom: 1vw;
-    border-top: 1px solid red;
-    border-bottom: 1px solid green;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
     padding: 1vw;
 }
 
