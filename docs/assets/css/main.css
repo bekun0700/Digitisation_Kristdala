@@ -2,7 +2,8 @@
 
 body {
 	padding: 1vw;
-	font-family: Arial, Helvetica, sans-serif;
+	font-family: 'Courier New', Courier, monospace;
+    text-align: justify;
 	line-height: 1.25;
 	font-size: 1vw;
   width: 100%;
