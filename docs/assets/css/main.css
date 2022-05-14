@@ -12,18 +12,17 @@ p.main {
     text-align: center;
 }
 
-div.a, div.b, div.c {
-    text-align: justify;
-    text-justify: inter-word;
-}
-
 div.a {
     text-indent: 30px;
+    text-align: justify;
+    text-justify: inter-word;
   }
 
 div.b {
     padding-left: 1.5em;
     text-indent:-1.5em;
+    text-align: justify;
+    text-justify: inter-word;
 }
 
 div.c {
