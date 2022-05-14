@@ -12,7 +12,9 @@ h1, h2, h3, h4, h5, nav, footer {
     text-align: center;
     font-weight: bold;
 }
-
+.p1 {
+    text-align: center;
+}
 nav {
     margin-bottom: 1vw;
     border-top: 1px solid black;
