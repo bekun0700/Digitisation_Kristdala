@@ -4,7 +4,7 @@ body {
 	padding: 1vw;
 	font-family: 'Courier New', Courier, monospace;
 	line-height: 1.25;
-	font-size: 1vw;
+	font-size: smaller;
     width: 100%;
 	}
 
@@ -14,15 +14,11 @@ p.main {
 
 div.a {
     text-indent: 30px;
-    text-align: justify;
-    text-justify: inter-word;
   }
 
 div.b {
     padding-left: 1.5em;
     text-indent:-1.5em;
-    text-align: justify;
-    text-justify: inter-word;
 }
 
 div.c {
