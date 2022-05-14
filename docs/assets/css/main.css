@@ -2,9 +2,9 @@
 
 body {
 	padding: 1vw;
-	font-family: 'Times New Roman', Times, serif;
+	font-family: 'Courier New', Courier, monospace;
 	line-height: 1.25;
-	font-size: 1vw;
+	font-size: smaller;
     width: 100%;
 	}
 
