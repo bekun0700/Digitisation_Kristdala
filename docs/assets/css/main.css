@@ -12,7 +12,7 @@ p.main {
     text-align: center;
 }
 
-div {
+div.a, div.b, div.c {
     text-align: justify;
     text-justify: inter-word;
 }
