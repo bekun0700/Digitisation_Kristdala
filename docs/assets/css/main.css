@@ -6,8 +6,12 @@ body {
     text-align: justify;
 	line-height: 1.25;
 	font-size: 1vw;
-  width: 100%;
+    width: 100%;
 	}
+
+p.main {
+    text-align: center;
+}
 
 h1, h2, h3, h4, h5, nav, footer {
     text-align: center;
