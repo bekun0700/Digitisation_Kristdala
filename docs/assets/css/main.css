@@ -3,8 +3,6 @@
 body {
 	padding: 1vw;
 	font-family: 'Courier New', Courier, monospace;
-    text-align: justify;
-    text-justify: inter-word;
 	line-height: 1.25;
 	font-size: 1vw;
     width: 100%;
@@ -12,6 +10,11 @@ body {
 
 p.main {
     text-align: center;
+}
+
+div {
+    text-align: justify;
+    text-justify: inter-word;
 }
 
 div.a {
