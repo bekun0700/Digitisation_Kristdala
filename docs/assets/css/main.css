@@ -5,8 +5,9 @@ body {
 	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 	line-height: 1.25;
 	font-size: medium;
+    font-stretch: condensed;
     width: 100%;
-	}
+}
 
 p.main {
     text-align: center;
@@ -23,7 +24,11 @@ div.b {
 
 div.c {
     text-align: right;
-  } 
+} 
+
+div.d {
+    font-size: x-small;
+} 
 
 h1, h2, h3, h4, h5, nav, footer {
     text-align: center;
