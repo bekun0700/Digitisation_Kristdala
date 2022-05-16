@@ -5,6 +5,7 @@ body {
 	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 	line-height: 1.25;
 	font-size: medium;
+    text-align: justify;
     width: 100%;
 }
 
@@ -13,7 +14,6 @@ p.main {
 }
 div, div.a, div.b, div.c, div.d {
     text-align: justify;
-    text-justify: inter-word;
   }
 div.a {
     text-indent: 30px;
