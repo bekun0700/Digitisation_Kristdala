@@ -11,7 +11,7 @@ body {
 p.main {
     text-align: center;
 }
-div {
+div, div.a, div.b, div.c, div.d {
     text-align: justify;
     text-justify: inter-word;
   }
