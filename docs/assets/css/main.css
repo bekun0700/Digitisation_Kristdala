@@ -11,7 +11,10 @@ body {
 p.main {
     text-align: center;
 }
-
+div {
+    text-align: justify;
+    text-justify: inter-word;
+  }
 div.a {
     text-indent: 30px;
   }
