@@ -5,14 +5,13 @@ body {
 	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 	line-height: 1.25;
 	font-size: medium;
-    text-align: justify;
     width: 100%;
 }
 
 p.main {
     text-align: center;
 }
-div, div.a, div.b, div.c, div.d {
+div {
     text-align: justify;
   }
 div.a {
