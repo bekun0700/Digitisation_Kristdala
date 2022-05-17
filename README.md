@@ -1,4 +1,4 @@
-# DCHMI-template
+# Digitisation Project Kristdala Socken
 
 🚀[Visit the Website](https://bekun0700.github.io/Digitisation_Kristdala/)🚀
 
