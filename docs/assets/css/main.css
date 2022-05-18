@@ -30,6 +30,10 @@ div.d {
     text-indent: 30px;
 } 
 
+div.e {
+    text-align: center;
+} 
+
 h1, h2, h3, h4, h5, nav, footer {
     text-align: center;
 }
