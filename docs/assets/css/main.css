@@ -100,3 +100,9 @@ footer {
 #myBtn:hover {
     background-color: #555;
 }
+
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+  width: 75%;
+  margin: auto;
+}
