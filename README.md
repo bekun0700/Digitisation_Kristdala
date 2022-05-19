@@ -10,7 +10,4 @@ Contents: A facsimile about the the region of Kristdala and its neighbouring vil
 
 
 Copyright: The material provided by the library and the local museum in Vimmerby is out of copyright and therefore part of the public domain. Holding institution is the Stadsbiblioteket in Vimmerby.
-<<<<<<< HEAD
-=======
 
->>>>>>> 355c7fe8cad32ba8957d4eb0425b06b2b685b7af
