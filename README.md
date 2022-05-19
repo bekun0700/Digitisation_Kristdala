@@ -11,4 +11,3 @@ Contents: A facsimile about the the region of Kristdala and its neighbouring vil
 
 Copyright: The material provided by the library and the local museum in Vimmerby is out of copyright and therefore part of the public domain. Holding institution is the Stadsbiblioteket in Vimmerby.
 
-This is a work in progress adaptable template repository designed to help students in the University of Borås' Digitizing Cultural Herirate Materials course to develop their own website for presenting their digitisation projects, hosted on GitHub. A more elaborate example can be found in Wout's [DIY-frankensTEIn](https://woutdln.github.io/DIY-frankensTEIn/index.html) repository.
