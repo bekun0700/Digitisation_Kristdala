@@ -184,7 +184,7 @@
             <!-- every div contains a separate unit of text-->
             <!--File img001.tif  -->
             
-            <pb facs="#Dala"/>
+            <pb facs="#Dala_001-2"/>
 
             <head> VIMMERBY STADSBIBLIOTEK <lb/> KRISTDALA SOCKEN. </head>
             <ab rend="text-align: center">
@@ -195,7 +195,7 @@
             <!-- File img002.tif  -->            
             
             <pb n="I"/>
-            <pb facs="#Dala"/>
+            <pb facs="#Dala_002-2"/>
             
             <div type="title">
                 <p> Anteckningar <lb/> om <lb/>
