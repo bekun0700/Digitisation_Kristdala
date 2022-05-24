@@ -49,7 +49,7 @@
                                    
                                    <img width="575">
                                        <xsl:attribute name="src">
-                                           <xsl:value-of select="//tei:surface[@xml:id='Dala']//tei:graphic[@xml:id='Dala_002-1']/@url"/>
+                                           <xsl:value-of select="//tei:surface[@xml:id='Dala']//tei:graphic[@xml:id='Dala_015-2']/@url"/>
                                        </xsl:attribute>
                                        <xsl:attribute name="title">
                                            <xsl:value-of select="//tei:facsimile/tei:surface[@xml:id='Dala']//tei:label"/>
@@ -58,6 +58,20 @@
                                            <xsl:value-of select="//tei:facsimile/tei:surface[@xml:id='Dala']//tei:figDesc"/>
                                        </xsl:attribute>
                                    </img>
+                                   
+                                   <img width="575">
+                                       <xsl:attribute name="src">
+                                           <xsl:value-of select="//tei:surface[@xml:id='Dala']//tei:graphic[@xml:id='Dala_022-1']/@url"/>
+                                       </xsl:attribute>
+                                       <xsl:attribute name="title">
+                                           <xsl:value-of select="//tei:facsimile/tei:surface[@xml:id='Dala']//tei:label"/>
+                                       </xsl:attribute>
+                                       <xsl:attribute name="alt">
+                                           <xsl:value-of select="//tei:facsimile/tei:surface[@xml:id='Dala']//tei:figDesc"/>
+                                       </xsl:attribute>
+                                   </img>
+                                   
+
                                
                                </article>
                             </div>
