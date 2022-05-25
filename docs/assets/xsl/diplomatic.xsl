@@ -12,7 +12,7 @@
                 <title>
                     <!-- add the title from the metadata. This is what will be shown
                     on your browsers tab-->
-                    frankensTEIn: diplomatic view
+                    Anteckningar om Kristdala socken i Tunaläns härad och Kalmar län
                 </title>
                 <!-- load bootstrap css (requires internet!) so you can use their pre-defined css classes to style your html -->
                 <link rel="stylesheet"
@@ -22,7 +22,9 @@
                 <!-- load the stylesheets in the assets/css folder, where you can modify the styling of your website -->
                 <link rel="stylesheet" href="assets/css/main.css"/>
                 <link rel="stylesheet" href="assets/css/desktop.css"/>
+           
             </head>
+            
             <body>
                 <header>
                     <h1>
@@ -32,7 +34,7 @@
                 <nav id="sitenav">
                     <a href="index.html">Home</a> |
                     <a href="diplomatic.html">Diplomatic Transcription</a> |
-                    <a href="reading.html">Reading Text</a> |
+                    <a href="reading.html">Gallery</a> |
                     <a href="toplayer.html">Top Layer</a> |
                 </nav>
                 <main id="manuscript">
@@ -44,17 +46,729 @@
                             <div class="col-sm">
                                <article id="scan">
                                    <h3>Image</h3>
-                                <img width="400">
-                                    <xsl:attribute name="src">
-                                        <xsl:value-of select="//tei:surface[@xml:id='postit01']//tei:graphic[@xml:id='postit01_full']/@url"/>
-                                    </xsl:attribute>
-                                    <xsl:attribute name="title">
-                                        <xsl:value-of select="//tei:facsimile/tei:surface[@xml:id='postit01']//tei:label"/>
-                                    </xsl:attribute>
-                                    <xsl:attribute name="alt">
-                                        <xsl:value-of select="//tei:facsimile/tei:surface[@xml:id='postit01']//tei:figDesc"/>
-                                    </xsl:attribute>
-                                </img>
+                                   
+                                   <img width="575">
+                                       <xsl:attribute name="src">
+                                           <xsl:value-of select="//tei:surface[@xml:id='Dala']//tei:graphic[@xml:id='Dala_001-2']/@url"/>
+                                       </xsl:attribute>
+                                       <xsl:attribute name="title">
+                                           <xsl:value-of select="//tei:facsimile/tei:surface[@xml:id='Dala']//tei:label"/>
+                                       </xsl:attribute>
+                                       <xsl:attribute name="alt">
+                                           <xsl:value-of select="//tei:facsimile/tei:surface[@xml:id='Dala']//tei:figDesc"/>
+                                       </xsl:attribute>
+                                   </img>
+                                   
+                                   <img width="575">
+                                       <xsl:attribute name="src">
+                                           <xsl:value-of select="//tei:surface[@xml:id='Dala']//tei:graphic[@xml:id='Dala_002-2']/@url"/>
+                                       </xsl:attribute>
+                                       <xsl:attribute name="title">
+                                           <xsl:value-of select="//tei:facsimile/tei:surface[@xml:id='Dala']//tei:label"/>
+                                       </xsl:attribute>
+                                       <xsl:attribute name="alt">
+                                           <xsl:value-of select="//tei:facsimile/tei:surface[@xml:id='Dala']//tei:figDesc"/>
+                                       </xsl:attribute>
+                                   </img>
+                                   
+                                   <img width="575">
+                                       <xsl:attribute name="src">
+                                           <xsl:value-of select="//tei:surface[@xml:id='Dala']//tei:graphic[@xml:id='Dala_003-1']/@url"/>
+                                       </xsl:attribute>
+                                       <xsl:attribute name="title">
+                                           <xsl:value-of select="//tei:facsimile/tei:surface[@xml:id='Dala']//tei:label"/>
+                                       </xsl:attribute>
+                                       <xsl:attribute name="alt">
+                                           <xsl:value-of select="//tei:facsimile/tei:surface[@xml:id='Dala']//tei:figDesc"/>
+                                       </xsl:attribute>
+                                   </img>
+                               
+                                   <img width="575">
+                                       <xsl:attribute name="src">
+                                           <xsl:value-of select="//tei:surface[@xml:id='Dala']//tei:graphic[@xml:id='Dala_003-2']/@url"/>
+                                       </xsl:attribute>
+                                       <xsl:attribute name="title">
+                                           <xsl:value-of select="//tei:facsimile/tei:surface[@xml:id='Dala']//tei:label"/>
+                                       </xsl:attribute>
+                                       <xsl:attribute name="alt">
+                                           <xsl:value-of select="//tei:facsimile/tei:surface[@xml:id='Dala']//tei:figDesc"/>
+                                       </xsl:attribute>
+                                   </img>
+                                   
+                                   <img width="575">
+                                       <xsl:attribute name="src">
+                                           <xsl:value-of select="//tei:surface[@xml:id='Dala']//tei:graphic[@xml:id='Dala_004-1']/@url"/>
+                                       </xsl:attribute>
+                                       <xsl:attribute name="title">
+                                           <xsl:value-of select="//tei:facsimile/tei:surface[@xml:id='Dala']//tei:label"/>
+                                       </xsl:attribute>
+                                       <xsl:attribute name="alt">
+                                           <xsl:value-of select="//tei:facsimile/tei:surface[@xml:id='Dala']//tei:figDesc"/>
+                                       </xsl:attribute>
+                                   </img>
+                                   
+                                   <img width="575">
+                                       <xsl:attribute name="src">
+                                           <xsl:value-of select="//tei:surface[@xml:id='Dala']//tei:graphic[@xml:id='Dala_004-2']/@url"/>
+                                       </xsl:attribute>
+                                       <xsl:attribute name="title">
+                                           <xsl:value-of select="//tei:facsimile/tei:surface[@xml:id='Dala']//tei:label"/>
+                                       </xsl:attribute>
+                                       <xsl:attribute name="alt">
+                                           <xsl:value-of select="//tei:facsimile/tei:surface[@xml:id='Dala']//tei:figDesc"/>
+                                       </xsl:attribute>
+                                   </img>
+                                   
+                                   <img width="575">
+                                       <xsl:attribute name="src">
+                                           <xsl:value-of select="//tei:surface[@xml:id='Dala']//tei:graphic[@xml:id='Dala_005-1']/@url"/>
+                                       </xsl:attribute>
+                                       <xsl:attribute name="title">
+                                           <xsl:value-of select="//tei:facsimile/tei:surface[@xml:id='Dala']//tei:label"/>
+                                       </xsl:attribute>
+                                       <xsl:attribute name="alt">
+                                           <xsl:value-of select="//tei:facsimile/tei:surface[@xml:id='Dala']//tei:figDesc"/>
+                                       </xsl:attribute>
+                                   </img>
+                                   
+                                   <img width="575">
+                                       <xsl:attribute name="src">
+                                           <xsl:value-of select="//tei:surface[@xml:id='Dala']//tei:graphic[@xml:id='Dala_005-2']/@url"/>
+                                       </xsl:attribute>
+                                       <xsl:attribute name="title">
+                                           <xsl:value-of select="//tei:facsimile/tei:surface[@xml:id='Dala']//tei:label"/>
+                                       </xsl:attribute>
+                                       <xsl:attribute name="alt">
+                                           <xsl:value-of select="//tei:facsimile/tei:surface[@xml:id='Dala']//tei:figDesc"/>
+                                       </xsl:attribute>
+                                   </img>
+                                   
+                                   <img width="575">
+                                       <xsl:attribute name="src">
+                                           <xsl:value-of select="//tei:surface[@xml:id='Dala']//tei:graphic[@xml:id='Dala_006-1']/@url"/>
+                                       </xsl:attribute>
+                                       <xsl:attribute name="title">
+                                           <xsl:value-of select="//tei:facsimile/tei:surface[@xml:id='Dala']//tei:label"/>
+                                       </xsl:attribute>
+                                       <xsl:attribute name="alt">
+                                           <xsl:value-of select="//tei:facsimile/tei:surface[@xml:id='Dala']//tei:figDesc"/>
+                                       </xsl:attribute>
+                                   </img>
+                                   
+                                   <img width="575">
+                                       <xsl:attribute name="src">
+                                           <xsl:value-of select="//tei:surface[@xml:id='Dala']//tei:graphic[@xml:id='Dala_006-2']/@url"/>
+                                       </xsl:attribute>
+                                       <xsl:attribute name="title">
+                                           <xsl:value-of select="//tei:facsimile/tei:surface[@xml:id='Dala']//tei:label"/>
+                                       </xsl:attribute>
+                                       <xsl:attribute name="alt">
+                                           <xsl:value-of select="//tei:facsimile/tei:surface[@xml:id='Dala']//tei:figDesc"/>
+                                       </xsl:attribute>
+                                   </img>
+                                   
+                                   <img width="575">
+                                       <xsl:attribute name="src">
+                                           <xsl:value-of select="//tei:surface[@xml:id='Dala']//tei:graphic[@xml:id='Dala_007-1']/@url"/>
+                                       </xsl:attribute>
+                                       <xsl:attribute name="title">
+                                           <xsl:value-of select="//tei:facsimile/tei:surface[@xml:id='Dala']//tei:label"/>
+                                       </xsl:attribute>
+                                       <xsl:attribute name="alt">
+                                           <xsl:value-of select="//tei:facsimile/tei:surface[@xml:id='Dala']//tei:figDesc"/>
+                                       </xsl:attribute>
+                                   </img>
+                                   
+                                   <img width="575">
+                                       <xsl:attribute name="src">
+                                           <xsl:value-of select="//tei:surface[@xml:id='Dala']//tei:graphic[@xml:id='Dala_007-2']/@url"/>
+                                       </xsl:attribute>
+                                       <xsl:attribute name="title">
+                                           <xsl:value-of select="//tei:facsimile/tei:surface[@xml:id='Dala']//tei:label"/>
+                                       </xsl:attribute>
+                                       <xsl:attribute name="alt">
+                                           <xsl:value-of select="//tei:facsimile/tei:surface[@xml:id='Dala']//tei:figDesc"/>
+                                       </xsl:attribute>
+                                   </img>
+                                   
+                                   <img width="575">
+                                       <xsl:attribute name="src">
+                                           <xsl:value-of select="//tei:surface[@xml:id='Dala']//tei:graphic[@xml:id='Dala_008-1']/@url"/>
+                                       </xsl:attribute>
+                                       <xsl:attribute name="title">
+                                           <xsl:value-of select="//tei:facsimile/tei:surface[@xml:id='Dala']//tei:label"/>
+                                       </xsl:attribute>
+                                       <xsl:attribute name="alt">
+                                           <xsl:value-of select="//tei:facsimile/tei:surface[@xml:id='Dala']//tei:figDesc"/>
+                                       </xsl:attribute>
+                                   </img>
+                                   
+                                   <img width="575">
+                                       <xsl:attribute name="src">
+                                           <xsl:value-of select="//tei:surface[@xml:id='Dala']//tei:graphic[@xml:id='Dala_008-2']/@url"/>
+                                       </xsl:attribute>
+                                       <xsl:attribute name="title">
+                                           <xsl:value-of select="//tei:facsimile/tei:surface[@xml:id='Dala']//tei:label"/>
+                                       </xsl:attribute>
+                                       <xsl:attribute name="alt">
+                                           <xsl:value-of select="//tei:facsimile/tei:surface[@xml:id='Dala']//tei:figDesc"/>
+                                       </xsl:attribute>
+                                   </img>
+                                   
+                                   
+                                   <img width="575">
+                                       <xsl:attribute name="src">
+                                           <xsl:value-of select="//tei:surface[@xml:id='Dala']//tei:graphic[@xml:id='Dala_009-1']/@url"/>
+                                       </xsl:attribute>
+                                       <xsl:attribute name="title">
+                                           <xsl:value-of select="//tei:facsimile/tei:surface[@xml:id='Dala']//tei:label"/>
+                                       </xsl:attribute>
+                                       <xsl:attribute name="alt">
+                                           <xsl:value-of select="//tei:facsimile/tei:surface[@xml:id='Dala']//tei:figDesc"/>
+                                       </xsl:attribute>
+                                   </img>
+                                   
+                                   <img width="575">
+                                       <xsl:attribute name="src">
+                                           <xsl:value-of select="//tei:surface[@xml:id='Dala']//tei:graphic[@xml:id='Dala_009-2']/@url"/>
+                                       </xsl:attribute>
+                                       <xsl:attribute name="title">
+                                           <xsl:value-of select="//tei:facsimile/tei:surface[@xml:id='Dala']//tei:label"/>
+                                       </xsl:attribute>
+                                       <xsl:attribute name="alt">
+                                           <xsl:value-of select="//tei:facsimile/tei:surface[@xml:id='Dala']//tei:figDesc"/>
+                                       </xsl:attribute>
+                                   </img>
+                                   
+                                   <img width="575">
+                                       <xsl:attribute name="src">
+                                           <xsl:value-of select="//tei:surface[@xml:id='Dala']//tei:graphic[@xml:id='Dala_010-1']/@url"/>
+                                       </xsl:attribute>
+                                       <xsl:attribute name="title">
+                                           <xsl:value-of select="//tei:facsimile/tei:surface[@xml:id='Dala']//tei:label"/>
+                                       </xsl:attribute>
+                                       <xsl:attribute name="alt">
+                                           <xsl:value-of select="//tei:facsimile/tei:surface[@xml:id='Dala']//tei:figDesc"/>
+                                       </xsl:attribute>
+                                   </img>
+                                   
+                                   <img width="575">
+                                       <xsl:attribute name="src">
+                                           <xsl:value-of select="//tei:surface[@xml:id='Dala']//tei:graphic[@xml:id='Dala_010-2']/@url"/>
+                                       </xsl:attribute>
+                                       <xsl:attribute name="title">
+                                           <xsl:value-of select="//tei:facsimile/tei:surface[@xml:id='Dala']//tei:label"/>
+                                       </xsl:attribute>
+                                       <xsl:attribute name="alt">
+                                           <xsl:value-of select="//tei:facsimile/tei:surface[@xml:id='Dala']//tei:figDesc"/>
+                                       </xsl:attribute>
+                                   </img>
+                                   
+                                   <img width="575">
+                                       <xsl:attribute name="src">
+                                           <xsl:value-of select="//tei:surface[@xml:id='Dala']//tei:graphic[@xml:id='Dala_011-1']/@url"/>
+                                       </xsl:attribute>
+                                       <xsl:attribute name="title">
+                                           <xsl:value-of select="//tei:facsimile/tei:surface[@xml:id='Dala']//tei:label"/>
+                                       </xsl:attribute>
+                                       <xsl:attribute name="alt">
+                                           <xsl:value-of select="//tei:facsimile/tei:surface[@xml:id='Dala']//tei:figDesc"/>
+                                       </xsl:attribute>
+                                   </img>
+                                   
+                                   <img width="575">
+                                       <xsl:attribute name="src">
+                                           <xsl:value-of select="//tei:surface[@xml:id='Dala']//tei:graphic[@xml:id='Dala_011-2']/@url"/>
+                                       </xsl:attribute>
+                                       <xsl:attribute name="title">
+                                           <xsl:value-of select="//tei:facsimile/tei:surface[@xml:id='Dala']//tei:label"/>
+                                       </xsl:attribute>
+                                       <xsl:attribute name="alt">
+                                           <xsl:value-of select="//tei:facsimile/tei:surface[@xml:id='Dala']//tei:figDesc"/>
+                                       </xsl:attribute>
+                                   </img>
+                                   
+                                   <img width="575">
+                                       <xsl:attribute name="src">
+                                           <xsl:value-of select="//tei:surface[@xml:id='Dala']//tei:graphic[@xml:id='Dala_012-1']/@url"/>
+                                       </xsl:attribute>
+                                       <xsl:attribute name="title">
+                                           <xsl:value-of select="//tei:facsimile/tei:surface[@xml:id='Dala']//tei:label"/>
+                                       </xsl:attribute>
+                                       <xsl:attribute name="alt">
+                                           <xsl:value-of select="//tei:facsimile/tei:surface[@xml:id='Dala']//tei:figDesc"/>
+                                       </xsl:attribute>
+                                   </img>
+                                   
+                                   <img width="575">
+                                       <xsl:attribute name="src">
+                                           <xsl:value-of select="//tei:surface[@xml:id='Dala']//tei:graphic[@xml:id='Dala_012-2']/@url"/>
+                                       </xsl:attribute>
+                                       <xsl:attribute name="title">
+                                           <xsl:value-of select="//tei:facsimile/tei:surface[@xml:id='Dala']//tei:label"/>
+                                       </xsl:attribute>
+                                       <xsl:attribute name="alt">
+                                           <xsl:value-of select="//tei:facsimile/tei:surface[@xml:id='Dala']//tei:figDesc"/>
+                                       </xsl:attribute>
+                                   </img>
+                                   
+                                   <img width="575">
+                                       <xsl:attribute name="src">
+                                           <xsl:value-of select="//tei:surface[@xml:id='Dala']//tei:graphic[@xml:id='Dala_013-1']/@url"/>
+                                       </xsl:attribute>
+                                       <xsl:attribute name="title">
+                                           <xsl:value-of select="//tei:facsimile/tei:surface[@xml:id='Dala']//tei:label"/>
+                                       </xsl:attribute>
+                                       <xsl:attribute name="alt">
+                                           <xsl:value-of select="//tei:facsimile/tei:surface[@xml:id='Dala']//tei:figDesc"/>
+                                       </xsl:attribute>
+                                   </img>
+                                   
+                                   <img width="575">
+                                       <xsl:attribute name="src">
+                                           <xsl:value-of select="//tei:surface[@xml:id='Dala']//tei:graphic[@xml:id='Dala_013-2']/@url"/>
+                                       </xsl:attribute>
+                                       <xsl:attribute name="title">
+                                           <xsl:value-of select="//tei:facsimile/tei:surface[@xml:id='Dala']//tei:label"/>
+                                       </xsl:attribute>
+                                       <xsl:attribute name="alt">
+                                           <xsl:value-of select="//tei:facsimile/tei:surface[@xml:id='Dala']//tei:figDesc"/>
+                                       </xsl:attribute>
+                                   </img>
+                                   
+                                   <img width="575">
+                                       <xsl:attribute name="src">
+                                           <xsl:value-of select="//tei:surface[@xml:id='Dala']//tei:graphic[@xml:id='Dala_014-1']/@url"/>
+                                       </xsl:attribute>
+                                       <xsl:attribute name="title">
+                                           <xsl:value-of select="//tei:facsimile/tei:surface[@xml:id='Dala']//tei:label"/>
+                                       </xsl:attribute>
+                                       <xsl:attribute name="alt">
+                                           <xsl:value-of select="//tei:facsimile/tei:surface[@xml:id='Dala']//tei:figDesc"/>
+                                       </xsl:attribute>
+                                   </img>
+                                   
+                                   <img width="575">
+                                       <xsl:attribute name="src">
+                                           <xsl:value-of select="//tei:surface[@xml:id='Dala']//tei:graphic[@xml:id='Dala_014-2']/@url"/>
+                                       </xsl:attribute>
+                                       <xsl:attribute name="title">
+                                           <xsl:value-of select="//tei:facsimile/tei:surface[@xml:id='Dala']//tei:label"/>
+                                       </xsl:attribute>
+                                       <xsl:attribute name="alt">
+                                           <xsl:value-of select="//tei:facsimile/tei:surface[@xml:id='Dala']//tei:figDesc"/>
+                                       </xsl:attribute>
+                                   </img>
+                                   
+                                   <img width="575">
+                                       <xsl:attribute name="src">
+                                           <xsl:value-of select="//tei:surface[@xml:id='Dala']//tei:graphic[@xml:id='Dala_015-1']/@url"/>
+                                       </xsl:attribute>
+                                       <xsl:attribute name="title">
+                                           <xsl:value-of select="//tei:facsimile/tei:surface[@xml:id='Dala']//tei:label"/>
+                                       </xsl:attribute>
+                                       <xsl:attribute name="alt">
+                                           <xsl:value-of select="//tei:facsimile/tei:surface[@xml:id='Dala']//tei:figDesc"/>
+                                       </xsl:attribute>
+                                   </img>
+                                   
+                                   <img width="575">
+                                       <xsl:attribute name="src">
+                                           <xsl:value-of select="//tei:surface[@xml:id='Dala']//tei:graphic[@xml:id='Dala_015-2']/@url"/>
+                                       </xsl:attribute>
+                                       <xsl:attribute name="title">
+                                           <xsl:value-of select="//tei:facsimile/tei:surface[@xml:id='Dala']//tei:label"/>
+                                       </xsl:attribute>
+                                       <xsl:attribute name="alt">
+                                           <xsl:value-of select="//tei:facsimile/tei:surface[@xml:id='Dala']//tei:figDesc"/>
+                                       </xsl:attribute>
+                                   </img>
+                                   
+                                   <img width="575">
+                                       <xsl:attribute name="src">
+                                           <xsl:value-of select="//tei:surface[@xml:id='Dala']//tei:graphic[@xml:id='Dala_016-1']/@url"/>
+                                       </xsl:attribute>
+                                       <xsl:attribute name="title">
+                                           <xsl:value-of select="//tei:facsimile/tei:surface[@xml:id='Dala']//tei:label"/>
+                                       </xsl:attribute>
+                                       <xsl:attribute name="alt">
+                                           <xsl:value-of select="//tei:facsimile/tei:surface[@xml:id='Dala']//tei:figDesc"/>
+                                       </xsl:attribute>
+                                   </img>
+                                   
+                                   <img width="575">
+                                       <xsl:attribute name="src">
+                                           <xsl:value-of select="//tei:surface[@xml:id='Dala']//tei:graphic[@xml:id='Dala_016-2']/@url"/>
+                                       </xsl:attribute>
+                                       <xsl:attribute name="title">
+                                           <xsl:value-of select="//tei:facsimile/tei:surface[@xml:id='Dala']//tei:label"/>
+                                       </xsl:attribute>
+                                       <xsl:attribute name="alt">
+                                           <xsl:value-of select="//tei:facsimile/tei:surface[@xml:id='Dala']//tei:figDesc"/>
+                                       </xsl:attribute>
+                                   </img>
+                                   
+                                   <img width="575">
+                                       <xsl:attribute name="src">
+                                           <xsl:value-of select="//tei:surface[@xml:id='Dala']//tei:graphic[@xml:id='Dala_017-1']/@url"/>
+                                       </xsl:attribute>
+                                       <xsl:attribute name="title">
+                                           <xsl:value-of select="//tei:facsimile/tei:surface[@xml:id='Dala']//tei:label"/>
+                                       </xsl:attribute>
+                                       <xsl:attribute name="alt">
+                                           <xsl:value-of select="//tei:facsimile/tei:surface[@xml:id='Dala']//tei:figDesc"/>
+                                       </xsl:attribute>
+                                   </img>
+                                   
+                                   <img width="575">
+                                       <xsl:attribute name="src">
+                                           <xsl:value-of select="//tei:surface[@xml:id='Dala']//tei:graphic[@xml:id='Dala_017-2']/@url"/>
+                                       </xsl:attribute>
+                                       <xsl:attribute name="title">
+                                           <xsl:value-of select="//tei:facsimile/tei:surface[@xml:id='Dala']//tei:label"/>
+                                       </xsl:attribute>
+                                       <xsl:attribute name="alt">
+                                           <xsl:value-of select="//tei:facsimile/tei:surface[@xml:id='Dala']//tei:figDesc"/>
+                                       </xsl:attribute>
+                                   </img>
+                                   
+                                   <img width="575">
+                                       <xsl:attribute name="src">
+                                           <xsl:value-of select="//tei:surface[@xml:id='Dala']//tei:graphic[@xml:id='Dala_018-1']/@url"/>
+                                       </xsl:attribute>
+                                       <xsl:attribute name="title">
+                                           <xsl:value-of select="//tei:facsimile/tei:surface[@xml:id='Dala']//tei:label"/>
+                                       </xsl:attribute>
+                                       <xsl:attribute name="alt">
+                                           <xsl:value-of select="//tei:facsimile/tei:surface[@xml:id='Dala']//tei:figDesc"/>
+                                       </xsl:attribute>
+                                   </img>
+                                   
+                                   <img width="575">
+                                       <xsl:attribute name="src">
+                                           <xsl:value-of select="//tei:surface[@xml:id='Dala']//tei:graphic[@xml:id='Dala_018-2']/@url"/>
+                                       </xsl:attribute>
+                                       <xsl:attribute name="title">
+                                           <xsl:value-of select="//tei:facsimile/tei:surface[@xml:id='Dala']//tei:label"/>
+                                       </xsl:attribute>
+                                       <xsl:attribute name="alt">
+                                           <xsl:value-of select="//tei:facsimile/tei:surface[@xml:id='Dala']//tei:figDesc"/>
+                                       </xsl:attribute>
+                                   </img>
+                                   
+                                   <img width="575">
+                                       <xsl:attribute name="src">
+                                           <xsl:value-of select="//tei:surface[@xml:id='Dala']//tei:graphic[@xml:id='Dala_019-1']/@url"/>
+                                       </xsl:attribute>
+                                       <xsl:attribute name="title">
+                                           <xsl:value-of select="//tei:facsimile/tei:surface[@xml:id='Dala']//tei:label"/>
+                                       </xsl:attribute>
+                                       <xsl:attribute name="alt">
+                                           <xsl:value-of select="//tei:facsimile/tei:surface[@xml:id='Dala']//tei:figDesc"/>
+                                       </xsl:attribute>
+                                   </img>
+                                   
+                                   <img width="575">
+                                       <xsl:attribute name="src">
+                                           <xsl:value-of select="//tei:surface[@xml:id='Dala']//tei:graphic[@xml:id='Dala_019-2']/@url"/>
+                                       </xsl:attribute>
+                                       <xsl:attribute name="title">
+                                           <xsl:value-of select="//tei:facsimile/tei:surface[@xml:id='Dala']//tei:label"/>
+                                       </xsl:attribute>
+                                       <xsl:attribute name="alt">
+                                           <xsl:value-of select="//tei:facsimile/tei:surface[@xml:id='Dala']//tei:figDesc"/>
+                                       </xsl:attribute>
+                                   </img>
+                                   
+                                   <img width="575">
+                                       <xsl:attribute name="src">
+                                           <xsl:value-of select="//tei:surface[@xml:id='Dala']//tei:graphic[@xml:id='Dala_020-1']/@url"/>
+                                       </xsl:attribute>
+                                       <xsl:attribute name="title">
+                                           <xsl:value-of select="//tei:facsimile/tei:surface[@xml:id='Dala']//tei:label"/>
+                                       </xsl:attribute>
+                                       <xsl:attribute name="alt">
+                                           <xsl:value-of select="//tei:facsimile/tei:surface[@xml:id='Dala']//tei:figDesc"/>
+                                       </xsl:attribute>
+                                   </img>
+                               
+                               
+                                   <img width="575">
+                                       <xsl:attribute name="src">
+                                           <xsl:value-of select="//tei:surface[@xml:id='Dala']//tei:graphic[@xml:id='Dala_020-2']/@url"/>
+                                       </xsl:attribute>
+                                       <xsl:attribute name="title">
+                                           <xsl:value-of select="//tei:facsimile/tei:surface[@xml:id='Dala']//tei:label"/>
+                                       </xsl:attribute>
+                                       <xsl:attribute name="alt">
+                                           <xsl:value-of select="//tei:facsimile/tei:surface[@xml:id='Dala']//tei:figDesc"/>
+                                       </xsl:attribute>
+                                   </img>
+                                   
+                                   <img width="575">
+                                       <xsl:attribute name="src">
+                                           <xsl:value-of select="//tei:surface[@xml:id='Dala']//tei:graphic[@xml:id='Dala_021-1']/@url"/>
+                                       </xsl:attribute>
+                                       <xsl:attribute name="title">
+                                           <xsl:value-of select="//tei:facsimile/tei:surface[@xml:id='Dala']//tei:label"/>
+                                       </xsl:attribute>
+                                       <xsl:attribute name="alt">
+                                           <xsl:value-of select="//tei:facsimile/tei:surface[@xml:id='Dala']//tei:figDesc"/>
+                                       </xsl:attribute>
+                                   </img>
+                                   
+                                   <img width="575">
+                                       <xsl:attribute name="src">
+                                           <xsl:value-of select="//tei:surface[@xml:id='Dala']//tei:graphic[@xml:id='Dala_021-2']/@url"/>
+                                       </xsl:attribute>
+                                       <xsl:attribute name="title">
+                                           <xsl:value-of select="//tei:facsimile/tei:surface[@xml:id='Dala']//tei:label"/>
+                                       </xsl:attribute>
+                                       <xsl:attribute name="alt">
+                                           <xsl:value-of select="//tei:facsimile/tei:surface[@xml:id='Dala']//tei:figDesc"/>
+                                       </xsl:attribute>
+                                   </img>
+                                   
+                                   <img width="575">
+                                       <xsl:attribute name="src">
+                                           <xsl:value-of select="//tei:surface[@xml:id='Dala']//tei:graphic[@xml:id='Dala_022-1']/@url"/>
+                                       </xsl:attribute>
+                                       <xsl:attribute name="title">
+                                           <xsl:value-of select="//tei:facsimile/tei:surface[@xml:id='Dala']//tei:label"/>
+                                       </xsl:attribute>
+                                       <xsl:attribute name="alt">
+                                           <xsl:value-of select="//tei:facsimile/tei:surface[@xml:id='Dala']//tei:figDesc"/>
+                                       </xsl:attribute>
+                                   </img>
+                                   
+                                   <img width="575">
+                                       <xsl:attribute name="src">
+                                           <xsl:value-of select="//tei:surface[@xml:id='Dala']//tei:graphic[@xml:id='Dala_022-2']/@url"/>
+                                       </xsl:attribute>
+                                       <xsl:attribute name="title">
+                                           <xsl:value-of select="//tei:facsimile/tei:surface[@xml:id='Dala']//tei:label"/>
+                                       </xsl:attribute>
+                                       <xsl:attribute name="alt">
+                                           <xsl:value-of select="//tei:facsimile/tei:surface[@xml:id='Dala']//tei:figDesc"/>
+                                       </xsl:attribute>
+                                   </img>
+                                   
+                                   <img width="575">
+                                       <xsl:attribute name="src">
+                                           <xsl:value-of select="//tei:surface[@xml:id='Dala']//tei:graphic[@xml:id='Dala_023-1']/@url"/>
+                                       </xsl:attribute>
+                                       <xsl:attribute name="title">
+                                           <xsl:value-of select="//tei:facsimile/tei:surface[@xml:id='Dala']//tei:label"/>
+                                       </xsl:attribute>
+                                       <xsl:attribute name="alt">
+                                           <xsl:value-of select="//tei:facsimile/tei:surface[@xml:id='Dala']//tei:figDesc"/>
+                                       </xsl:attribute>
+                                   </img>
+                                   
+                                   <img width="575">
+                                       <xsl:attribute name="src">
+                                           <xsl:value-of select="//tei:surface[@xml:id='Dala']//tei:graphic[@xml:id='Dala_023-2']/@url"/>
+                                       </xsl:attribute>
+                                       <xsl:attribute name="title">
+                                           <xsl:value-of select="//tei:facsimile/tei:surface[@xml:id='Dala']//tei:label"/>
+                                       </xsl:attribute>
+                                       <xsl:attribute name="alt">
+                                           <xsl:value-of select="//tei:facsimile/tei:surface[@xml:id='Dala']//tei:figDesc"/>
+                                       </xsl:attribute>
+                                   </img>
+                                   
+                                   <img width="575">
+                                       <xsl:attribute name="src">
+                                           <xsl:value-of select="//tei:surface[@xml:id='Dala']//tei:graphic[@xml:id='Dala_024-1']/@url"/>
+                                       </xsl:attribute>
+                                       <xsl:attribute name="title">
+                                           <xsl:value-of select="//tei:facsimile/tei:surface[@xml:id='Dala']//tei:label"/>
+                                       </xsl:attribute>
+                                       <xsl:attribute name="alt">
+                                           <xsl:value-of select="//tei:facsimile/tei:surface[@xml:id='Dala']//tei:figDesc"/>
+                                       </xsl:attribute>
+                                   </img>
+                                   
+                                   <img width="575">
+                                       <xsl:attribute name="src">
+                                           <xsl:value-of select="//tei:surface[@xml:id='Dala']//tei:graphic[@xml:id='Dala_024-2']/@url"/>
+                                       </xsl:attribute>
+                                       <xsl:attribute name="title">
+                                           <xsl:value-of select="//tei:facsimile/tei:surface[@xml:id='Dala']//tei:label"/>
+                                       </xsl:attribute>
+                                       <xsl:attribute name="alt">
+                                           <xsl:value-of select="//tei:facsimile/tei:surface[@xml:id='Dala']//tei:figDesc"/>
+                                       </xsl:attribute>
+                                   </img>
+                                   
+                                   <img width="575">
+                                       <xsl:attribute name="src">
+                                           <xsl:value-of select="//tei:surface[@xml:id='Dala']//tei:graphic[@xml:id='Dala_025-1']/@url"/>
+                                       </xsl:attribute>
+                                       <xsl:attribute name="title">
+                                           <xsl:value-of select="//tei:facsimile/tei:surface[@xml:id='Dala']//tei:label"/>
+                                       </xsl:attribute>
+                                       <xsl:attribute name="alt">
+                                           <xsl:value-of select="//tei:facsimile/tei:surface[@xml:id='Dala']//tei:figDesc"/>
+                                       </xsl:attribute>
+                                   </img>
+                                   
+                                   <img width="575">
+                                       <xsl:attribute name="src">
+                                           <xsl:value-of select="//tei:surface[@xml:id='Dala']//tei:graphic[@xml:id='Dala_025-2']/@url"/>
+                                       </xsl:attribute>
+                                       <xsl:attribute name="title">
+                                           <xsl:value-of select="//tei:facsimile/tei:surface[@xml:id='Dala']//tei:label"/>
+                                       </xsl:attribute>
+                                       <xsl:attribute name="alt">
+                                           <xsl:value-of select="//tei:facsimile/tei:surface[@xml:id='Dala']//tei:figDesc"/>
+                                       </xsl:attribute>
+                                   </img>
+                                   
+                                   <img width="575">
+                                       <xsl:attribute name="src">
+                                           <xsl:value-of select="//tei:surface[@xml:id='Dala']//tei:graphic[@xml:id='Dala_026-1']/@url"/>
+                                       </xsl:attribute>
+                                       <xsl:attribute name="title">
+                                           <xsl:value-of select="//tei:facsimile/tei:surface[@xml:id='Dala']//tei:label"/>
+                                       </xsl:attribute>
+                                       <xsl:attribute name="alt">
+                                           <xsl:value-of select="//tei:facsimile/tei:surface[@xml:id='Dala']//tei:figDesc"/>
+                                       </xsl:attribute>
+                                   </img>
+                                   
+                                   <img width="575">
+                                       <xsl:attribute name="src">
+                                           <xsl:value-of select="//tei:surface[@xml:id='Dala']//tei:graphic[@xml:id='Dala_026-2']/@url"/>
+                                       </xsl:attribute>
+                                       <xsl:attribute name="title">
+                                           <xsl:value-of select="//tei:facsimile/tei:surface[@xml:id='Dala']//tei:label"/>
+                                       </xsl:attribute>
+                                       <xsl:attribute name="alt">
+                                           <xsl:value-of select="//tei:facsimile/tei:surface[@xml:id='Dala']//tei:figDesc"/>
+                                       </xsl:attribute>
+                                   </img>
+                                   
+                                   <img width="575">
+                                       <xsl:attribute name="src">
+                                           <xsl:value-of select="//tei:surface[@xml:id='Dala']//tei:graphic[@xml:id='Dala_027-1']/@url"/>
+                                       </xsl:attribute>
+                                       <xsl:attribute name="title">
+                                           <xsl:value-of select="//tei:facsimile/tei:surface[@xml:id='Dala']//tei:label"/>
+                                       </xsl:attribute>
+                                       <xsl:attribute name="alt">
+                                           <xsl:value-of select="//tei:facsimile/tei:surface[@xml:id='Dala']//tei:figDesc"/>
+                                       </xsl:attribute>
+                                   </img>
+                                   
+                                   <img width="575">
+                                       <xsl:attribute name="src">
+                                           <xsl:value-of select="//tei:surface[@xml:id='Dala']//tei:graphic[@xml:id='Dala_027-2']/@url"/>
+                                       </xsl:attribute>
+                                       <xsl:attribute name="title">
+                                           <xsl:value-of select="//tei:facsimile/tei:surface[@xml:id='Dala']//tei:label"/>
+                                       </xsl:attribute>
+                                       <xsl:attribute name="alt">
+                                           <xsl:value-of select="//tei:facsimile/tei:surface[@xml:id='Dala']//tei:figDesc"/>
+                                       </xsl:attribute>
+                                   </img>
+                                   
+                                   <img width="575">
+                                       <xsl:attribute name="src">
+                                           <xsl:value-of select="//tei:surface[@xml:id='Dala']//tei:graphic[@xml:id='Dala_028-1']/@url"/>
+                                       </xsl:attribute>
+                                       <xsl:attribute name="title">
+                                           <xsl:value-of select="//tei:facsimile/tei:surface[@xml:id='Dala']//tei:label"/>
+                                       </xsl:attribute>
+                                       <xsl:attribute name="alt">
+                                           <xsl:value-of select="//tei:facsimile/tei:surface[@xml:id='Dala']//tei:figDesc"/>
+                                       </xsl:attribute>
+                                   </img>
+                                   
+                                   <img width="575">
+                                       <xsl:attribute name="src">
+                                           <xsl:value-of select="//tei:surface[@xml:id='Dala']//tei:graphic[@xml:id='Dala_028-2']/@url"/>
+                                       </xsl:attribute>
+                                       <xsl:attribute name="title">
+                                           <xsl:value-of select="//tei:facsimile/tei:surface[@xml:id='Dala']//tei:label"/>
+                                       </xsl:attribute>
+                                       <xsl:attribute name="alt">
+                                           <xsl:value-of select="//tei:facsimile/tei:surface[@xml:id='Dala']//tei:figDesc"/>
+                                       </xsl:attribute>
+                                   </img>
+                                   
+                                   <img width="575">
+                                       <xsl:attribute name="src">
+                                           <xsl:value-of select="//tei:surface[@xml:id='Dala']//tei:graphic[@xml:id='Dala_029-1']/@url"/>
+                                       </xsl:attribute>
+                                       <xsl:attribute name="title">
+                                           <xsl:value-of select="//tei:facsimile/tei:surface[@xml:id='Dala']//tei:label"/>
+                                       </xsl:attribute>
+                                       <xsl:attribute name="alt">
+                                           <xsl:value-of select="//tei:facsimile/tei:surface[@xml:id='Dala']//tei:figDesc"/>
+                                       </xsl:attribute>
+                                   </img>
+                                   
+                                   <img width="575">
+                                       <xsl:attribute name="src">
+                                           <xsl:value-of select="//tei:surface[@xml:id='Dala']//tei:graphic[@xml:id='Dala_029-2']/@url"/>
+                                       </xsl:attribute>
+                                       <xsl:attribute name="title">
+                                           <xsl:value-of select="//tei:facsimile/tei:surface[@xml:id='Dala']//tei:label"/>
+                                       </xsl:attribute>
+                                       <xsl:attribute name="alt">
+                                           <xsl:value-of select="//tei:facsimile/tei:surface[@xml:id='Dala']//tei:figDesc"/>
+                                       </xsl:attribute>
+                                   </img>
+                                   
+                                   <img width="575">
+                                       <xsl:attribute name="src">
+                                           <xsl:value-of select="//tei:surface[@xml:id='Dala']//tei:graphic[@xml:id='Dala_030-1']/@url"/>
+                                       </xsl:attribute>
+                                       <xsl:attribute name="title">
+                                           <xsl:value-of select="//tei:facsimile/tei:surface[@xml:id='Dala']//tei:label"/>
+                                       </xsl:attribute>
+                                       <xsl:attribute name="alt">
+                                           <xsl:value-of select="//tei:facsimile/tei:surface[@xml:id='Dala']//tei:figDesc"/>
+                                       </xsl:attribute>
+                                   </img>
+                                   
+                                   <img width="575">
+                                       <xsl:attribute name="src">
+                                           <xsl:value-of select="//tei:surface[@xml:id='Dala']//tei:graphic[@xml:id='Dala_030-2']/@url"/>
+                                       </xsl:attribute>
+                                       <xsl:attribute name="title">
+                                           <xsl:value-of select="//tei:facsimile/tei:surface[@xml:id='Dala']//tei:label"/>
+                                       </xsl:attribute>
+                                       <xsl:attribute name="alt">
+                                           <xsl:value-of select="//tei:facsimile/tei:surface[@xml:id='Dala']//tei:figDesc"/>
+                                       </xsl:attribute>
+                                   </img>
+                                   
+                                   <img width="575">
+                                       <xsl:attribute name="src">
+                                           <xsl:value-of select="//tei:surface[@xml:id='Dala']//tei:graphic[@xml:id='Dala_031-1']/@url"/>
+                                       </xsl:attribute>
+                                       <xsl:attribute name="title">
+                                           <xsl:value-of select="//tei:facsimile/tei:surface[@xml:id='Dala']//tei:label"/>
+                                       </xsl:attribute>
+                                       <xsl:attribute name="alt">
+                                           <xsl:value-of select="//tei:facsimile/tei:surface[@xml:id='Dala']//tei:figDesc"/>
+                                       </xsl:attribute>
+                                   </img>
+                                   
+                                   <img width="575">
+                                       <xsl:attribute name="src">
+                                           <xsl:value-of select="//tei:surface[@xml:id='Dala']//tei:graphic[@xml:id='Dala_031-2']/@url"/>
+                                       </xsl:attribute>
+                                       <xsl:attribute name="title">
+                                           <xsl:value-of select="//tei:facsimile/tei:surface[@xml:id='Dala']//tei:label"/>
+                                       </xsl:attribute>
+                                       <xsl:attribute name="alt">
+                                           <xsl:value-of select="//tei:facsimile/tei:surface[@xml:id='Dala']//tei:figDesc"/>
+                                       </xsl:attribute>
+                                   </img>
+                                   
                                </article>
                             </div>
                             <!-- second column: apply matching templates for anything nested underneath the tei:text element -->
@@ -135,6 +849,9 @@
             <xsl:apply-templates/>
         </u>
     </xsl:template>
-
-
+    
+    <xsl:template match="tei:figure">
+        <img src="{tei:graphic/@url}" alt="{tei:head}"/> 
+    </xsl:template>
+    
 </xsl:stylesheet>
