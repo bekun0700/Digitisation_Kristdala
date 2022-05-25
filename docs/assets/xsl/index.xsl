@@ -12,7 +12,7 @@
                 <title>
                     <!-- add the title from the metadata. This is what will be shown
                     on your browsers tab-->
-                    frankensTEIn: Home
+                    Anteckningar om Kristdala socken i Tunaläns härad och Kalmar län
                 </title>
                 <!-- load bootstrap css (requires internet!) so you can use their pre-defined css classes to style your html -->
                 <link rel="stylesheet"
@@ -44,15 +44,19 @@
                             <div class="col-sm">
                                <article id="thumbnail">
                                 <img>
-                                    <xsl:attribute name="src">
-                                        <xsl:value-of select="//tei:facsimile/tei:surface//tei:graphic[@xml:id='postit01_thumb']/@url"/>
-                                    </xsl:attribute>
-                                    <xsl:attribute name="title">
-                                        <xsl:value-of select="//tei:facsimile/tei:surface[@xml:id='postit01']//tei:label"/>
-                                    </xsl:attribute>
-                                    <xsl:attribute name="alt">
-                                        <xsl:value-of select="//tei:facsimile/tei:surface[@xml:id='postit01']//tei:figDesc"/>
-                                    </xsl:attribute>
+                             
+                                    <img width="780">
+                                        <xsl:attribute name="src">
+                                            <xsl:value-of select="//tei:surface[@xml:id='Dala']//tei:graphic[@xml:id='Dala_001-1']/@url"/>
+                                        </xsl:attribute>
+                                        <xsl:attribute name="title">
+                                            <xsl:value-of select="//tei:facsimile/tei:surface[@xml:id='Dala']//tei:label"/>
+                                        </xsl:attribute>
+                                        <xsl:attribute name="alt">
+                                            <xsl:value-of select="//tei:facsimile/tei:surface[@xml:id='Dala']//tei:figDesc"/>
+                                        </xsl:attribute>
+                                    </img>
+                                    
                                 </img>
                                </article>
                             </div>
