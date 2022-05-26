@@ -2,28 +2,7 @@
 <!DOCTYPE HTML><html lang="en" xml:lang="en">
    <head>
       <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-      <style>
-
-.header {
-    position: fixed;
-    top: 0;
-    z-index: 1;
-    width: 100%;
-    background-color: #f1f1f1;
-}
   
-.progress-container {
-    width: 100%;
-    height: 8px;
-    background: #ccc;
-}
-  
-.progress-bar {
-    height: 8px;
-    background: #04AA6D;
-    width: 0%;
-}
-      </style>
       <title>
                     
          Diplomatic Transcription
@@ -36,13 +15,9 @@
    <body>
       <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
 
-      <div class="header">
+      <header>
          <h1>Digitisation Project Kristdala Socken</h1>
-         <div class="progress-container">
-           <div class="progress-bar" id="myBar"></div>
-         </div>  
-       </div>
-
+      </header>
 
 
       <nav id="sitenav"><a href="index.html">Home</a> |
@@ -4914,16 +4889,6 @@
            document.body.scrollTop = 0;
            document.documentElement.scrollTop = 0;
          }
-
-         // When the user scrolls the page, execute myFunction 
-         window.onscroll = function() {myFunction()};
-
-        function myFunction() {
-        var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
-        var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
-        var scrolled = (winScroll / height) * 100;
-        document.getElementById("myBar").style.width = scrolled + "%";
-        }
 
          </script>
    </body>
